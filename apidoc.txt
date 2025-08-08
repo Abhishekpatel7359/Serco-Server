@@ -1,0 +1,370 @@
+curl -X POST http://localhost:3000/send-otp -H "Content-Type: application/json" -d '{"email": "recipient-email@example.com"}'
+
+http://localhost:3500/api/send-Html
+{
+    "email":"abhishek.ap7359@gmail.com",
+    "subject": "Welcome to Our Service",
+    "htmlContent": "<div style='font-family: Arial, sans-serif;'> <h2>Welcome to Our Service</h2> <p>We are excited to have you with us!</p> </div>"
+}
+
+
+API Documentation: Dynamic MySQL CRUD Operations with JWT Authentication
+Overview
+This API provides dynamic CRUD (Create, Read, Update, Delete) operations for MySQL. It is structured with authentication via JWT tokens and allows queries to be passed dynamically, enabling enterprise-level flexibility.
+
+Base URL
+bash
+Copy code
+http://localhost:3000/api/crud
+Authentication
+Token Format
+Header:
+Authorization: Bearer <token>
+The token is verified using HMAC SHA256.
+Endpoints
+1. Dynamic CRUD
+Method: POST
+Endpoint: /api/crud
+
+Request Body
+Field	Type	Required	Description
+queryType	string	Yes	Type of query: select, insert, update, delete, batch-insert
+table	string	Yes	Name of the database table
+data	object/array	No	Fields and values for insert or update queries
+conditions	object	No	Key-value pairs for filtering data in select, update, or delete queries
+Query Types
+1. select
+Retrieves data from the table.
+Conditions: Optional. If omitted, retrieves all rows.
+Example Request:
+
+json
+Copy code
+{
+  "queryType": "select",
+  "table": "tbl_ping_log"
+}
+Example Response:
+
+json
+Copy code
+{
+  "message": "Query executed successfully",
+  "results": [
+    { "id": 1, "ping": "success", "timestamp": "2024-11-28 12:00:00" }
+  ]
+}
+2. insert
+Inserts a single row into the table.
+Example Request:
+
+json
+Copy code
+{
+  "queryType": "insert",
+  "table": "tbl_ping_log",
+  "data": {
+    "DEVICE_IP": "192.168.1.4",
+    "PING_DATA": "Test Ping",
+    "PING_TIME": null,
+    "PING_STATUS": "Responsive",
+    "DateTime": "28/11/2024, 10:00:00"
+  }
+}
+Example Response:
+
+json
+Copy code
+{
+  "message": "Query executed successfully",
+  "results": {
+    "affectedRows": 1,
+    "insertId": 10
+  }
+}
+3. update
+Updates rows based on the given conditions.
+Example Request:
+
+json
+Copy code
+{
+  "queryType": "update",
+  "table": "tbl_ping_log",
+  "data": {
+    "PING_STATUS": "Unresponsive"
+  },
+  "conditions": {
+    "DEVICE_IP": "192.168.1.4"
+  }
+}
+Example Response:
+
+json
+Copy code
+{
+  "message": "Query executed successfully",
+  "results": {
+    "affectedRows": 1,
+    "changedRows": 1
+  }
+}
+4. delete
+Deletes rows based on the given conditions.
+Example Request:
+
+json
+Copy code
+{
+  "queryType": "delete",
+  "table": "tbl_ping_log",
+  "conditions": {
+    "DEVICE_IP": "192.168.1.4"
+  }
+}
+Example Response:
+
+json
+Copy code
+{
+  "message": "Query executed successfully",
+  "results": {
+    "affectedRows": 1
+  }
+}
+5. batch-insert
+Inserts multiple rows into the table.
+Example Request:
+
+json
+Copy code
+{
+  "queryType": "batch-insert",
+  "table": "tbl_ping_log",
+  "data": [
+    {
+      "DEVICE_IP": "192.168.1.4",
+      "PING_DATA": "Ping1",
+      "PING_TIME": null,
+      "PING_STATUS": "Responsive",
+      "DateTime": "28/11/2024, 10:10:00"
+    },
+    {
+      "DEVICE_IP": "192.168.1.5",
+      "PING_DATA": "Ping2",
+      "PING_TIME": null,
+      "PING_STATUS": "Unresponsive",
+      "DateTime": "28/11/2024, 10:15:00"
+    }
+  ]
+}
+Example Response:
+
+json
+Copy code
+{
+  "message": "Query executed successfully",
+  "results": {
+    "affectedRows": 2,
+    "insertId": 11
+  }
+}
+Error Responses
+HTTP Status Code	Message	Cause
+400	"Invalid queryType"	Unsupported query type passed
+401	"Unauthorized"	Missing or invalid JWT token
+500	"Error executing query"	SQL syntax issues or database errors
+Testing with Postman
+1. Authentication
+Generate a valid JWT token. Use the following payload as an example:
+json
+Copy code
+{
+  "username": "admin"
+}
+Encode using HMAC SHA256 with your secret key (mySecretKey).
+2. Test Cases
+Case 1: select Query Without Conditions
+Body:
+json
+Copy code
+{
+  "queryType": "select",
+  "table": "tbl_ping_log"
+}
+Expected: Retrieves all rows.
+Case 2: insert Query
+Body:
+json
+Copy code
+{
+  "queryType": "insert",
+  "table": "tbl_ping_log",
+  "data": {
+    "DEVICE_IP": "192.168.1.6",
+    "PING_DATA": "Ping Data",
+    "PING_STATUS": "Responsive",
+    "DateTime": "28/11/2024, 11:00:00"
+  }
+}
+Expected: New row inserted.
+Case 3: update Query
+Body:
+json
+Copy code
+{
+  "queryType": "update",
+  "table": "tbl_ping_log",
+  "data": {
+    "PING_STATUS": "Unresponsive"
+  },
+  "conditions": {
+    "DEVICE_IP": "192.168.1.6"
+  }
+}
+Expected: Updates rows where DEVICE_IP matches.
+Case 4: delete Query
+Body:
+json
+Copy code
+{
+  "queryType": "delete",
+  "table": "tbl_ping_log",
+  "conditions": {
+    "DEVICE_IP": "192.168.1.6"
+  }
+}
+Expected: Deletes rows where DEVICE_IP matches.
+Case 5: batch-insert Query
+Body:
+json
+Copy code
+{
+  "queryType": "batch-insert",
+  "table": "tbl_ping_log",
+  "data": [
+    {
+      "DEVICE_IP": "192.168.1.7",
+      "PING_DATA": "Batch Ping1",
+      "PING_STATUS": "Responsive",
+      "DateTime": "28/11/2024, 12:00:00"
+    },
+    {
+      "DEVICE_IP": "192.168.1.8",
+      "PING_DATA": "Batch Ping2",
+      "PING_STATUS": "Unresponsive",
+      "DateTime": "28/11/2024, 12:10:00"
+    }
+  ]
+}
+Expected: Multiple rows inserted.
+Tools Required
+Postman for testing endpoints.
+Any JWT generator for creating tokens (e.g., jwt.io).
+
+
+
+Testing the Single Endpoint with Postman
+Endpoint:
+POST /api/ping/single
+
+Request Body:
+json
+Copy code
+{
+  "ip": "142.250.65.174",
+  "numPings": 4
+}
+Expected Response:
+json
+Copy code
+{
+  "message": "Single IP ping completed",
+  "result": {
+    "ip": "142.250.65.174",
+    "time": 334,
+    "status": "Delayed",
+    "alive": true,
+    "timestamp": "2024-11-28T14:10:05.669Z",
+    "details": {
+      "packetLoss": "0.000",
+      "min": 319,
+      "max": 346,
+      "avg": 333.5,
+      "numPings": 4
+    }
+  }
+}
+
+
+
+Endpoint:
+POST /api/ping/batch
+
+Request Body:
+json
+Copy code
+{
+  "ips": ["142.250.65.174", "8.8.8.8", "192.168.1.1"],
+  "numPings": 4
+}
+Expected Response:
+json
+Copy code
+{
+  "message": "Batch ping completed",
+  "results": [
+    {
+      "ip": "142.250.65.174",
+      "time": 334,
+      "status": "Delayed",
+      "alive": true,
+      "timestamp": "2024-11-28T14:10:05.669Z",
+      "details": {
+        "packetLoss": "0.000",
+        "min": 319,
+        "max": 346,
+        "avg": 333.5,
+        "numPings": 4
+      }
+    },
+    {
+      "ip": "8.8.8.8",
+      "time": 12,
+      "status": "Healthy",
+      "alive": true,
+      "timestamp": "2024-11-28T14:10:07.221Z",
+      "details": {
+        "packetLoss": "0.000",
+        "min": 10,
+        "max": 15,
+        "avg": 12,
+        "numPings": 4
+      }
+    },
+    {
+      "ip": "192.168.1.1",
+      "error": "Ping failed: Request timeout"
+    }
+  ]
+}
+
+
+
+
+To schedule a task to run on December 15, 2024, at 10:30 AM:
+
+Send a POST request to /api/scheduler/schedule with the following body:
+json
+Copy code
+{
+  "route": "/api/ping/batch",
+  "headers": {
+    "Authorization": "Bearer YOUR_TOKEN"
+  },
+  "body": {
+    "ips": ["142.250.65.174", "8.8.8.8", "192.168.1.1"],
+    "numPings": 4
+  },
+  "run_at": "2024-12-15 10:30:00"
+}

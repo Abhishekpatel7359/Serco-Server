@@ -1,0 +1,4451 @@
+{
+    "Controllers": [
+        {
+            "ControllerId": 3,
+            "ControllerName": "FIS-1-011",
+            "Status": "Active",
+            "RoomId": 95,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.7",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-88",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 4,
+            "ControllerName": "M1-0-012",
+            "Status": "Active",
+            "RoomId": 272,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.17",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-97",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 5,
+            "ControllerName": "FIS-1-012",
+            "Status": "Active",
+            "RoomId": 100,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.11",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-DD",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 6,
+            "ControllerName": "FIS-1-013",
+            "Status": "Active",
+            "RoomId": 101,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.15",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-F8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 7,
+            "ControllerName": "FIS-1-014",
+            "Status": "Active",
+            "RoomId": 102,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.19",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-23",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 8,
+            "ControllerName": "FIS-1-015",
+            "Status": "Active",
+            "RoomId": 103,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.23",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3E-77",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 9,
+            "ControllerName": "FIS-1-017",
+            "Status": "Active",
+            "RoomId": 104,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.27",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-0E-43",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 10,
+            "ControllerName": "FIS-1-019",
+            "Status": "Active",
+            "RoomId": 105,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.35",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-04",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 11,
+            "ControllerName": "FIS-1-020",
+            "Status": "Active",
+            "RoomId": 106,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.39",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-74",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 12,
+            "ControllerName": "FIS-1-021",
+            "Status": "Active",
+            "RoomId": 107,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.43",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-0E-30",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 13,
+            "ControllerName": "FIS-1-023",
+            "Status": "Active",
+            "RoomId": 108,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.51",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-C7",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 14,
+            "ControllerName": "FIS-1-024",
+            "Status": "Active",
+            "RoomId": 109,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.55",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-75",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 15,
+            "ControllerName": "FIS-1-025",
+            "Status": "Active",
+            "RoomId": 110,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.59",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-0E-87",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 16,
+            "ControllerName": "FIS-1-027",
+            "Status": "Active",
+            "RoomId": 111,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.63",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-B2",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 17,
+            "ControllerName": "FIS-1-028",
+            "Status": "Active",
+            "RoomId": 112,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.67",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-DC",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 18,
+            "ControllerName": "FIS-2-012",
+            "Status": "Active",
+            "RoomId": 113,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.80",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-DE",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 19,
+            "ControllerName": "FIS-2-013",
+            "Status": "Active",
+            "RoomId": 114,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.84",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-3F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 20,
+            "ControllerName": "FIS-2-014",
+            "Status": "Active",
+            "RoomId": 115,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.88",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-BB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 21,
+            "ControllerName": "FIS-2-017",
+            "Status": "Active",
+            "RoomId": 116,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.140",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4E-03",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 22,
+            "ControllerName": "FIS-2-018",
+            "Status": "Active",
+            "RoomId": 117,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.96",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-CA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 23,
+            "ControllerName": "FIS-2-019",
+            "Status": "Active",
+            "RoomId": 118,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.100",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-50",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 24,
+            "ControllerName": "FIS-2-021",
+            "Status": "Active",
+            "RoomId": 120,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.108",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-A5",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 25,
+            "ControllerName": "FIS-2-023",
+            "Status": "Active",
+            "RoomId": 121,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.116",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-E1",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 26,
+            "ControllerName": "FIS-2-025",
+            "Status": "Active",
+            "RoomId": 122,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.124",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-CB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 27,
+            "ControllerName": "FIS-2-028",
+            "Status": "Active",
+            "RoomId": 123,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.132",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6E-CB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 28,
+            "ControllerName": "MIS-1-014",
+            "Status": "Active",
+            "RoomId": 124,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.15",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-11",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 29,
+            "ControllerName": "MIS-1-017",
+            "Status": "Active",
+            "RoomId": 125,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.23",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-15",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 30,
+            "ControllerName": "MIS-1-018",
+            "Status": "Active",
+            "RoomId": 126,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.27",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-CA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 31,
+            "ControllerName": "MIS-1-019",
+            "Status": "Active",
+            "RoomId": 127,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.31",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-D0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 32,
+            "ControllerName": "MIS-1-020",
+            "Status": "Active",
+            "RoomId": 128,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.35",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-F5",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 33,
+            "ControllerName": "MIS-1-021",
+            "Status": "Active",
+            "RoomId": 129,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.39",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-04-1A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 34,
+            "ControllerName": "MIS-1-022",
+            "Status": "Active",
+            "RoomId": 130,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.43",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-94",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 35,
+            "ControllerName": "MIS-1-026",
+            "Status": "Active",
+            "RoomId": 131,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.55",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-C8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 36,
+            "ControllerName": "MIS-1-027",
+            "Status": "Active",
+            "RoomId": 132,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.59",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-11-93-04",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 37,
+            "ControllerName": "MIS-1-028",
+            "Status": "Active",
+            "RoomId": 133,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.63",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-8F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 38,
+            "ControllerName": "MIS-2-012",
+            "Status": "Active",
+            "RoomId": 134,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.88",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-76",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 39,
+            "ControllerName": "MIS-2-015",
+            "Status": "Active",
+            "RoomId": 135,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.96",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-A6-C9",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 40,
+            "ControllerName": "MIS-2-016",
+            "Status": "Active",
+            "RoomId": 136,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.100",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-5F-8D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 41,
+            "ControllerName": "MIS-2-017",
+            "Status": "Active",
+            "RoomId": 137,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.104",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-5B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 42,
+            "ControllerName": "MIS-2-018",
+            "Status": "Active",
+            "RoomId": 138,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.108",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-5F-1D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 43,
+            "ControllerName": "MIS-2-019",
+            "Status": "Active",
+            "RoomId": 139,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.112",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-5F-A3",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 44,
+            "ControllerName": "MIS-2-020",
+            "Status": "Active",
+            "RoomId": 140,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.116",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-B5",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 45,
+            "ControllerName": "MIS-2-021",
+            "Status": "Active",
+            "RoomId": 141,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.120",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-56",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 46,
+            "ControllerName": "MIS-2-022",
+            "Status": "Active",
+            "RoomId": 142,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.124",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-5F-3B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 47,
+            "ControllerName": "MIS-2-024",
+            "Status": "Active",
+            "RoomId": 143,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.128",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-5F-28",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 48,
+            "ControllerName": "MIS-2-026",
+            "Status": "Active",
+            "RoomId": 144,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.132",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-9A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 49,
+            "ControllerName": "MIS-2-009",
+            "Status": "Active",
+            "RoomId": 145,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.76",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-0E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 50,
+            "ControllerName": "MIS-2-010",
+            "Status": "Active",
+            "RoomId": 146,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.80",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-DC",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 51,
+            "ControllerName": "MIS-2-011",
+            "Status": "Active",
+            "RoomId": 147,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.84",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1B-1B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 52,
+            "ControllerName": "MIS-2-014 ",
+            "Status": "Active",
+            "RoomId": 148,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.92",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-B9",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 53,
+            "ControllerName": "F1-2-001",
+            "Status": "Missing",
+            "RoomId": 149,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.136",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-DE",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 54,
+            "ControllerName": "F1-2-003",
+            "Status": "Active",
+            "RoomId": 168,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.140",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-BA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 55,
+            "ControllerName": "F1-2-005",
+            "Status": "Missing",
+            "RoomId": 151,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.144",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-E3",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 56,
+            "ControllerName": "F1-2-007",
+            "Status": "Active",
+            "RoomId": 152,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.152",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-04-07",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 57,
+            "ControllerName": "F1-2-011",
+            "Status": "Active",
+            "RoomId": 153,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.164",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-B8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 58,
+            "ControllerName": "F1-2-013",
+            "Status": "Active",
+            "RoomId": 154,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.172",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-FB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 59,
+            "ControllerName": "F1-2-015",
+            "Status": "Active",
+            "RoomId": 155,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.180",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-A6-68",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 60,
+            "ControllerName": "F1-2-017",
+            "Status": "Active",
+            "RoomId": 156,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.184",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-2B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 61,
+            "ControllerName": "F1-2-028",
+            "Status": "Active",
+            "RoomId": 157,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.197",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3D-D4",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 62,
+            "ControllerName": "F1-2-030",
+            "Status": "Active",
+            "RoomId": 158,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.201",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-3E-19",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 63,
+            "ControllerName": "F1-1-001",
+            "Status": "Active",
+            "RoomId": 159,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.44",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6E-ED",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 64,
+            "ControllerName": "F1-1-009",
+            "Status": "Active",
+            "RoomId": 160,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.83",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-BE",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 65,
+            "ControllerName": "F1-1-013",
+            "Status": "Active",
+            "RoomId": 161,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.95",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-B3",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 66,
+            "ControllerName": "F1-1-015",
+            "Status": "Active",
+            "RoomId": 162,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.103",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4E-20",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 67,
+            "ControllerName": "F1-1-028",
+            "Status": "Active",
+            "RoomId": 163,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.124",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-E0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 68,
+            "ControllerName": "F1-1-030",
+            "Status": "Active",
+            "RoomId": 164,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.128",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-86",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 69,
+            "ControllerName": "F1-0-028",
+            "Status": "Active",
+            "RoomId": 165,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.32",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-7F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 70,
+            "ControllerName": "F1-0-030",
+            "Status": "Active",
+            "RoomId": 166,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.36",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-82",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 71,
+            "ControllerName": "F1-0-032",
+            "Status": "Active",
+            "RoomId": 167,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.40",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-E7",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 72,
+            "ControllerName": "F2-1-015",
+            "Status": "Active",
+            "RoomId": 169,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.120",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-0A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 73,
+            "ControllerName": "F2-2-009",
+            "Status": "Active",
+            "RoomId": 170,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.182",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-14",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 74,
+            "ControllerName": "F2-2-011",
+            "Status": "Active",
+            "RoomId": 171,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.193",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-96",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 75,
+            "ControllerName": "F2-2-013",
+            "Status": "Active",
+            "RoomId": 172,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.197",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-F4",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 76,
+            "ControllerName": "F2-2-015",
+            "Status": "Active",
+            "RoomId": 173,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.208",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-B0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 77,
+            "ControllerName": "M1-1-003",
+            "Status": "Active",
+            "RoomId": 174,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.75",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-01",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 78,
+            "ControllerName": "M1-1-005",
+            "Status": "Active",
+            "RoomId": 175,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.83",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-DE",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 79,
+            "ControllerName": "M1-1-007",
+            "Status": "Active",
+            "RoomId": 176,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.91",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-41",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 80,
+            "ControllerName": "M1-2-003",
+            "Status": "Active",
+            "RoomId": 177,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.169",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-FB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 81,
+            "ControllerName": "M1-2-005",
+            "Status": "Active",
+            "RoomId": 178,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.173",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-E6",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 82,
+            "ControllerName": "M1-0-014",
+            "Status": "Active",
+            "RoomId": 179,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.22",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4E-16",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 83,
+            "ControllerName": "M1-1-010",
+            "Status": "Active",
+            "RoomId": 209,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.103",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4E-24",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 84,
+            "ControllerName": "M1-1-014",
+            "Status": "Active",
+            "RoomId": 181,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.115",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-E9",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 85,
+            "ControllerName": "M1-1-017",
+            "Status": "Active",
+            "RoomId": 182,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.123",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-BA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 86,
+            "ControllerName": "M1-1-028",
+            "Status": "Active",
+            "RoomId": 183,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.135",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1B-46",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 87,
+            "ControllerName": "M1-SF-010",
+            "Status": "Active",
+            "RoomId": 184,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.189",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-47",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 88,
+            "ControllerName": "M1-SF-012",
+            "Status": "Active",
+            "RoomId": 185,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.197",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1B-2E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 89,
+            "ControllerName": "M1-2-032",
+            "Status": "Active",
+            "RoomId": 186,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.234",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-6F-7B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 90,
+            "ControllerName": "M2-1-007",
+            "Status": "Active",
+            "RoomId": 187,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.75",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-60",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 91,
+            "ControllerName": "M2-1-009",
+            "Status": "Active",
+            "RoomId": 188,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.86",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-AC",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 92,
+            "ControllerName": "M2-1-011",
+            "Status": "Active",
+            "RoomId": 189,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.97",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-76",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 93,
+            "ControllerName": "M2-1-003",
+            "Status": "Active",
+            "RoomId": 190,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.62",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-04-02",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 94,
+            "ControllerName": "M2-1-005",
+            "Status": "Active",
+            "RoomId": 191,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.66",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-11-98-31",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 95,
+            "ControllerName": "M2-FF-013",
+            "Status": "Active",
+            "RoomId": 282,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.101",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0F-82-AE",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 96,
+            "ControllerName": "M2-1-015",
+            "Status": "Active",
+            "RoomId": 193,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.112",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-85",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 97,
+            "ControllerName": "M2-1-017",
+            "Status": "Active",
+            "RoomId": 194,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.116",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-3A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 99,
+            "ControllerName": "M2-2-007",
+            "Status": "Active",
+            "RoomId": 195,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.155",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-F6",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 100,
+            "ControllerName": "M2-2-009",
+            "Status": "Active",
+            "RoomId": 196,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.163",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4E-07",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 101,
+            "ControllerName": "M2-2-011",
+            "Status": "Active",
+            "RoomId": 197,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.171",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-66",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 102,
+            "ControllerName": "M2-2-013",
+            "Status": "Active",
+            "RoomId": 198,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.179",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-65",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 103,
+            "ControllerName": "F8-0-028",
+            "Status": "Active",
+            "RoomId": 199,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.65",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-8F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 104,
+            "ControllerName": "F8-0-029",
+            "Status": "Active",
+            "RoomId": 200,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.69",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-D4",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 105,
+            "ControllerName": "F8-0-030",
+            "Status": "Active",
+            "RoomId": 201,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.73",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-84",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 106,
+            "ControllerName": "F8-0-031",
+            "Status": "Active",
+            "RoomId": 202,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.77",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-D6",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 107,
+            "ControllerName": "F8-0-033",
+            "Status": "Active",
+            "RoomId": 203,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.81",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-B9",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 108,
+            "ControllerName": "FIS-1-018",
+            "Status": "Active",
+            "RoomId": 204,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.31",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-E0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 109,
+            "ControllerName": "FIS-1-022",
+            "Status": "Active",
+            "RoomId": 205,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.47",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-C3",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 110,
+            "ControllerName": "FIS-1-029",
+            "Status": "Active",
+            "RoomId": 206,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.71",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-A8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 111,
+            "ControllerName": "FIS-2-015",
+            "Status": "Active",
+            "RoomId": 207,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.92",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-26-BB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 112,
+            "ControllerName": "F1-1-032",
+            "Status": "Active",
+            "RoomId": 208,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.132",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-79",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 113,
+            "ControllerName": "IPCP Pro 355M : 10.80.0.19",
+            "Status": "Active",
+            "RoomId": 210,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.0.19",
+                "GatewayIPAddress": "10.80.0.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-FD-E0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.14.0000-b007"
+        },
+        {
+            "ControllerId": 114,
+            "ControllerName": "MIS-1-023",
+            "Status": "Active",
+            "RoomId": 212,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.47",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-E8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 116,
+            "ControllerName": "M2-2-017",
+            "Status": "Active",
+            "RoomId": 213,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.187",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-19-FA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 117,
+            "ControllerName": "F6-1-007",
+            "Status": "Active",
+            "RoomId": 214,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.24",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-03-CE",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 118,
+            "ControllerName": "M2-2-015",
+            "Status": "Active",
+            "RoomId": 215,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.183",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4E-14",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 119,
+            "ControllerName": "F6-1-028",
+            "Status": "Active",
+            "RoomId": 216,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.36",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-6F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 120,
+            "ControllerName": "F6-1-032",
+            "Status": "Active",
+            "RoomId": 217,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.40",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-7C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 121,
+            "ControllerName": "F8-0-007",
+            "Status": "Active",
+            "RoomId": 218,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.32",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-25-53",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 122,
+            "ControllerName": "F8-0-021",
+            "Status": "Active",
+            "RoomId": 220,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.38",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-25-55",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 123,
+            "ControllerName": "F8-0-024",
+            "Status": "Active",
+            "RoomId": 221,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.50",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-15-A4-0B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 124,
+            "ControllerName": "ADM-0-006",
+            "Status": "Active",
+            "RoomId": 222,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.11.2",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-A9-95",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 125,
+            "ControllerName": "ADM-1-066",
+            "Status": "Active",
+            "RoomId": 224,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.11.47",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-AA-63",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 126,
+            "ControllerName": "CON-3-029",
+            "Status": "Active",
+            "RoomId": 225,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.162",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-AA-67",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 127,
+            "ControllerName": "CON-3-030",
+            "Status": "Active",
+            "RoomId": 226,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.170",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-13-2D-2F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 128,
+            "ControllerName": "F1-2-009",
+            "Status": "Active",
+            "RoomId": 227,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.160",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-47-8F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 129,
+            "ControllerName": "ADM-SF-051",
+            "Status": "Active",
+            "RoomId": 228,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.11.76",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-AA-89",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.12.0000-b001"
+        },
+        {
+            "ControllerId": 130,
+            "ControllerName": "ADM-SF 057",
+            "Status": "Active",
+            "RoomId": 229,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.11.80",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-AA-A3",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 131,
+            "ControllerName": "M4-GF-005",
+            "Status": "Active",
+            "RoomId": 230,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.5.7",
+                "GatewayIPAddress": "10.80.4.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-19-7D-BF",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 132,
+            "ControllerName": "M4-GF-006",
+            "Status": "Active",
+            "RoomId": 231,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.5.14",
+                "GatewayIPAddress": "10.80.4.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-19-7D-C9",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.14.0000-b007"
+        },
+        {
+            "ControllerId": 133,
+            "ControllerName": "M4-GF-007",
+            "Status": "Active",
+            "RoomId": 232,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.5.21",
+                "GatewayIPAddress": "10.80.4.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-AA-95",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.04.0002-b003"
+        },
+        {
+            "ControllerId": 134,
+            "ControllerName": "FF1-FF-068",
+            "Status": "Active",
+            "RoomId": 233,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.18",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-15-85-38",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.09.0000-b009"
+        },
+        {
+            "ControllerId": 135,
+            "ControllerName": "FF1-SF-068",
+            "Status": "Active",
+            "RoomId": 235,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.33",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-66-0E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.09.0000-b009"
+        },
+        {
+            "ControllerId": 136,
+            "ControllerName": "F1-1-011",
+            "Status": "Active",
+            "RoomId": 237,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.91",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-0C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 137,
+            "ControllerName": "F1.1.17",
+            "Status": "Active",
+            "RoomId": 240,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.107",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-8B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.02.0002-b003"
+        },
+        {
+            "ControllerId": 138,
+            "ControllerName": "F1-2-032",
+            "Status": "Active",
+            "RoomId": 239,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.205",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-5B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 139,
+            "ControllerName": "F2-1-002",
+            "Status": "Active",
+            "RoomId": 241,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.50",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-93",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 140,
+            "ControllerName": "F2-1-011",
+            "Status": "Active",
+            "RoomId": 242,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.102",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-43",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 141,
+            "ControllerName": "F2-1-013",
+            "Status": "Active",
+            "RoomId": 243,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.233",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-12",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 142,
+            "ControllerName": "F2-1-030",
+            "Status": "Active",
+            "RoomId": 248,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.141",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-7F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 143,
+            "ControllerName": "F2-1-032",
+            "Status": "Active",
+            "RoomId": 244,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.145",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-21",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 144,
+            "ControllerName": "F2-2-007",
+            "Status": "Active",
+            "RoomId": 245,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.171",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-36",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 145,
+            "ControllerName": "F2-2-030",
+            "Status": "Active",
+            "RoomId": 246,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.225",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-7C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 146,
+            "ControllerName": "F2.02.032",
+            "Status": "Active",
+            "RoomId": 247,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.229",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-B3",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 147,
+            "ControllerName": "FIS-SF-024",
+            "Status": "Active",
+            "RoomId": 305,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.120",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-E0-47",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 148,
+            "ControllerName": "FIS-2-027",
+            "Status": "Active",
+            "RoomId": 250,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.128",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-37",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 149,
+            "ControllerName": "M1-1-009",
+            "Status": "Active",
+            "RoomId": 251,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.99",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-1E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 150,
+            "ControllerName": "M1-1-011",
+            "Status": "Active",
+            "RoomId": 252,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.107",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-81",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 151,
+            "ControllerName": "M1.1.013",
+            "Status": "Active",
+            "RoomId": 253,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.111",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-29",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 152,
+            "ControllerName": "M1-1-015",
+            "Status": "Active",
+            "RoomId": 254,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.119",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-82",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 153,
+            "ControllerName": "M1-2-007",
+            "Status": "Active",
+            "RoomId": 255,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.181",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-11",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 154,
+            "ControllerName": "M1-2-009",
+            "Status": "Active",
+            "RoomId": 256,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.185",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-64",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 155,
+            "ControllerName": "M1-2-011",
+            "Status": "Active",
+            "RoomId": 257,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.193",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-60",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 156,
+            "ControllerName": "M1-2-013",
+            "Status": "Active",
+            "RoomId": 258,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.201",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-CD",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 157,
+            "ControllerName": "MIS-1-011",
+            "Status": "Active",
+            "RoomId": 259,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.7",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-28",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 158,
+            "ControllerName": "MIS-1-013",
+            "Status": "Active",
+            "RoomId": 260,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.11",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-65",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 159,
+            "ControllerName": "MIS-1-024",
+            "Status": "Active",
+            "RoomId": 261,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.51",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-AB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 160,
+            "ControllerName": "MIS-1-030",
+            "Status": "Active",
+            "RoomId": 262,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.67",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-8A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 161,
+            "ControllerName": "F8-1-001",
+            "Status": "Active",
+            "RoomId": 264,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.89",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-3C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 162,
+            "ControllerName": "F8-1-002",
+            "Status": "Active",
+            "RoomId": 265,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.93",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.255.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-EA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 163,
+            "ControllerName": "M1-0-010",
+            "Status": "Active",
+            "RoomId": 266,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.12",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-DF-CD",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 164,
+            "ControllerName": "M1-0-032",
+            "Status": "Active",
+            "RoomId": 267,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.58",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-E8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 165,
+            "ControllerName": "M1-1-026",
+            "Status": "Active",
+            "RoomId": 268,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.127",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-F6",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 166,
+            "ControllerName": "M1-1-027",
+            "Status": "Active",
+            "RoomId": 269,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.131",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-8C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 167,
+            "ControllerName": "F8-1-024",
+            "Status": "Active",
+            "RoomId": 270,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.116",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-0E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 168,
+            "ControllerName": "M2-1-008",
+            "Status": "Active",
+            "RoomId": 271,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.79",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-20",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 169,
+            "ControllerName": "IPL Pro S3",
+            "Status": "Active",
+            "RoomId": 277,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.0.8",
+                "GatewayIPAddress": "10.80.0.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-12-B0-8B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPL Pro S3",
+            "PartNumber": "60-1413-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 170,
+            "ControllerName": "SV2-GF-013",
+            "Status": "Active",
+            "RoomId": 277,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.0.9",
+                "GatewayIPAddress": "10.80.0.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-13-B8-32",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 171,
+            "ControllerName": "F2-FF-014",
+            "Status": "Active",
+            "RoomId": 290,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.111",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-15-35",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.04.0002-b003"
+        },
+        {
+            "ControllerId": 172,
+            "ControllerName": "F1-FF-014",
+            "Status": "Active",
+            "RoomId": 276,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.207",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-14-AD",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.04.0002-b003"
+        },
+        {
+            "ControllerId": 173,
+            "ControllerName": "MF2-SF-068",
+            "Status": "Active",
+            "RoomId": 278,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.112",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-11-AF-90",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 174,
+            "ControllerName": "MF3-GF-068",
+            "Status": "Active",
+            "RoomId": 279,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.162",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-06-74",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 175,
+            "ControllerName": "MF3-FF-068",
+            "Status": "Active",
+            "RoomId": 280,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.177",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0D-EA-E5",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 176,
+            "ControllerName": "MF3-SF-068",
+            "Status": "Active",
+            "RoomId": 281,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.192",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-11-C2-E2",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 177,
+            "ControllerName": "MF2-GF-068",
+            "Status": "Active",
+            "RoomId": 283,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.82",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-9E-FA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 178,
+            "ControllerName": "MF2-FF-068",
+            "Status": "Active",
+            "RoomId": 284,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.97",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0E-9F-09",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 179,
+            "ControllerName": "MF1-SF-068",
+            "Status": "Active",
+            "RoomId": 285,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.33",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-15-84-BA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.03.0000-b006"
+        },
+        {
+            "ControllerId": 180,
+            "ControllerName": "LIB-GF-042m",
+            "Status": "Active",
+            "RoomId": 286,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.59",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-AA-AD",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.10.0000-b007"
+        },
+        {
+            "ControllerId": 181,
+            "ControllerName": "MIS-FF-016",
+            "Status": "Active",
+            "RoomId": 288,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.8.19",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-94",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 182,
+            "ControllerName": "IPL Pro S6",
+            "Status": "Active",
+            "RoomId": 289,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.153",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-B0-6D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPL Pro S6",
+            "PartNumber": "60-1414-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 183,
+            "ControllerName": "M1-FF-033",
+            "Status": "Active",
+            "RoomId": 289,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.150",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-67-8B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 185,
+            "ControllerName": "ADM-FF-029",
+            "Status": "Active",
+            "RoomId": 293,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.82",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-16-A9-97",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.02.0000-b013"
+        },
+        {
+            "ControllerId": 186,
+            "ControllerName": "F1-GF-012",
+            "Status": "Active",
+            "RoomId": 294,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.15",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-E0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 187,
+            "ControllerName": "F1-GF-014",
+            "Status": "Active",
+            "RoomId": 295,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.19",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-98",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 188,
+            "ControllerName": "F2-SF-005",
+            "Status": "Active",
+            "RoomId": 296,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.160",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-52",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 189,
+            "ControllerName": "F6-FF-005",
+            "Status": "Active",
+            "RoomId": 297,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.16",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-17-1A-3F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 190,
+            "ControllerName": "F6-FF-022 Room A",
+            "Status": "Active",
+            "RoomId": 298,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.28",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-89",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 191,
+            "ControllerName": "F6-FF-022 Room B",
+            "Status": "Active",
+            "RoomId": 299,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.44",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-80",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 192,
+            "ControllerName": "F6-FF-024",
+            "Status": "Active",
+            "RoomId": 300,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.17.32",
+                "GatewayIPAddress": "10.80.16.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-86",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 193,
+            "ControllerName": "F8-GF-023",
+            "Status": "Active",
+            "RoomId": 301,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.44",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-14-D7",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.04.0002-b003"
+        },
+        {
+            "ControllerId": 194,
+            "ControllerName": "F8-GF-027",
+            "Status": "Active",
+            "RoomId": 302,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.60",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1A-15-01",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.04.0002-b003"
+        },
+        {
+            "ControllerId": 195,
+            "ControllerName": "F8-GF-026",
+            "Status": "Active",
+            "RoomId": 303,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.55",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-9D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 196,
+            "ControllerName": "FIS-SF-020",
+            "Status": "Active",
+            "RoomId": 306,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.104",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-A0-3B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 197,
+            "ControllerName": "FIS-SF-022",
+            "Status": "Active",
+            "RoomId": 307,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.22.112",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-8E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 198,
+            "ControllerName": "FFi-GF-068",
+            "Status": "Active",
+            "RoomId": 308,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.3",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-15-64-A6",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.03.0000-b006"
+        },
+        {
+            "ControllerId": 199,
+            "ControllerName": "M2-SF-005",
+            "Status": "Active",
+            "RoomId": 309,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.147",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-14-4D-04",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 200,
+            "ControllerName": "IPL Pro S6",
+            "Status": "Active",
+            "RoomId": 310,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.226",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-13-F4-6A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPL Pro S6",
+            "PartNumber": "60-1414-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 201,
+            "ControllerName": "M1-SF-029",
+            "Status": "Active",
+            "RoomId": 310,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.223",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-19-E7-48",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.06.0001-b002"
+        },
+        {
+            "ControllerId": 202,
+            "ControllerName": "M2-FF-010",
+            "Status": "Active",
+            "RoomId": 311,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.90",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-18-9F-A1",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 203,
+            "ControllerName": "M2-FF-014",
+            "Status": "Active",
+            "RoomId": 312,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.105",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0C-C2-8F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 204,
+            "ControllerName": "LIB-GF-043F",
+            "Status": "Active",
+            "RoomId": 313,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.75",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-13-27-DF",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.09.0000-b009"
+        },
+        {
+            "ControllerId": 205,
+            "ControllerName": "F1-FF-008",
+            "Status": "Active",
+            "RoomId": 314,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.218",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1D-30-84",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.11.0000-b007"
+        },
+        {
+            "ControllerId": 206,
+            "ControllerName": "F1-FF-006",
+            "Status": "Active",
+            "RoomId": 315,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.215",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1D-30-4A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.13.0000-b006"
+        },
+        {
+            "ControllerId": 207,
+            "ControllerName": "F1-FF-010",
+            "Status": "Active",
+            "RoomId": 317,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.221",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1D-30-C6",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.11.0000-b007"
+        },
+        {
+            "ControllerId": 210,
+            "ControllerName": "F1-SF-008",
+            "Status": "Active",
+            "RoomId": 319,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.224",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1D-30-6C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355M",
+            "PartNumber": "60-1612-01",
+            "FirmwareVersion": "3.11.0000-b007"
+        },
+        {
+            "ControllerId": 211,
+            "ControllerName": "F2-GF-008",
+            "Status": "Active",
+            "RoomId": 320,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.9",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0D-5F-33",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 212,
+            "ControllerName": "F2-FF-003",
+            "Status": "Active",
+            "RoomId": 321,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.52",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0D-5F-31",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 213,
+            "ControllerName": "F2-SF-003",
+            "Status": "Active",
+            "RoomId": 322,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.13.151",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0D-36-6F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 214,
+            "ControllerName": "F8-GF-001",
+            "Status": "Active",
+            "RoomId": 323,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.7",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-A4",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 215,
+            "ControllerName": "F8-GF-002",
+            "Status": "Active",
+            "RoomId": 324,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.11",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1B-7D-5C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 216,
+            "ControllerName": "F8-FF-003",
+            "Status": "Active",
+            "RoomId": 325,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.97",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-59",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 217,
+            "ControllerName": "F8-FF-005",
+            "Status": "Active",
+            "RoomId": 326,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.101",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1B-7D-3B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 220,
+            "ControllerName": "F8-FF-025",
+            "Status": "Active",
+            "RoomId": 327,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.120",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-82",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 221,
+            "ControllerName": "F8-FF-026",
+            "Status": "Active",
+            "RoomId": 328,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.124",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-7E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 222,
+            "ControllerName": "M1-FF-032",
+            "Status": "Active",
+            "RoomId": 329,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.148",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-63-E0",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 223,
+            "ControllerName": "M1-SF-006",
+            "Status": "Active",
+            "RoomId": 330,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.177",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-29",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 224,
+            "ControllerName": "M1-SF-014",
+            "Status": "Active",
+            "RoomId": 331,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.205",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-6A",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 225,
+            "ControllerName": "M1-SF-027",
+            "Status": "Active",
+            "RoomId": 332,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.2.217",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-5D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 226,
+            "ControllerName": "M2-SF-010",
+            "Status": "Active",
+            "RoomId": 333,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.167",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-0D-60-2D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 227,
+            "ControllerName": "M2-SF-012",
+            "Status": "Active",
+            "RoomId": 334,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.3.175",
+                "GatewayIPAddress": "10.80.2.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-15-F0-7F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 228,
+            "ControllerName": "FF2-GF-068",
+            "Status": "Active",
+            "RoomId": 335,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.82",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1D-10-BA",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.13.0000-b006"
+        },
+        {
+            "ControllerId": 230,
+            "ControllerName": "F8-GF-003",
+            "Status": "Active",
+            "RoomId": 338,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.15",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-64-0D",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.01.0000-b005"
+        },
+        {
+            "ControllerId": 231,
+            "ControllerName": "CON-FF-030-MPH",
+            "Status": "Active",
+            "RoomId": 339,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.2",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1F-89-01",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.14.0000-b007"
+        },
+        {
+            "ControllerId": 232,
+            "ControllerName": "CON-FF-Auditorium",
+            "Status": "Active",
+            "RoomId": 340,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.38",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1C-DA-01",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555Q xi",
+            "PartNumber": "60-1917-01",
+            "FirmwareVersion": "1.00.0002-b005"
+        },
+        {
+            "ControllerId": 234,
+            "ControllerName": "LIB-GF-041F",
+            "Status": "Active",
+            "RoomId": 344,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.43",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-41-A2",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 555",
+            "PartNumber": "60-1434-01",
+            "FirmwareVersion": "3.15.0000-b004"
+        },
+        {
+            "ControllerId": 237,
+            "ControllerName": "IPCP Pro 355M : 10.80.18.107",
+            "Status": "Active",
+            "RoomId": 349,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.107",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-22-72-48",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355MQ xi",
+            "PartNumber": "60-1919-01",
+            "FirmwareVersion": "1.04.0005-b003"
+        },
+        {
+            "ControllerId": 238,
+            "ControllerName": "IPCP Pro 355M : 10.80.18.137",
+            "Status": "Active",
+            "RoomId": 350,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.137",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-22-72-5C",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355MQ xi",
+            "PartNumber": "60-1919-01",
+            "FirmwareVersion": "1.04.0001-b007"
+        },
+        {
+            "ControllerId": 240,
+            "ControllerName": "IPCP Pro 355M : 10.80.18.126",
+            "Status": "Active",
+            "RoomId": 351,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.18.126",
+                "GatewayIPAddress": "10.80.18.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-22-70-96",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 355MQ xi",
+            "PartNumber": "60-1919-01",
+            "FirmwareVersion": "1.04.0005-b003"
+        },
+        {
+            "ControllerId": 241,
+            "ControllerName": "IPCP Pro 250xi - 10.80.10.7",
+            "Status": "Active",
+            "RoomId": 352,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.7",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-BD-69",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 250 xi",
+            "PartNumber": "60-1911-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 242,
+            "ControllerName": "IPCP Pro 250xi - 10.80.10.11",
+            "Status": "Active",
+            "RoomId": 353,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.11",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-BB-79",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 250 xi",
+            "PartNumber": "60-1911-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 243,
+            "ControllerName": "IPCP Pro 250xi - 10.80.10.29",
+            "Status": "Active",
+            "RoomId": 354,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.29",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-BC-1B",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 250 xi",
+            "PartNumber": "60-1911-01",
+            "FirmwareVersion": "1.04.0004-b002"
+        },
+        {
+            "ControllerId": 244,
+            "ControllerName": "IPCP Pro 250xi - 10.80.10.37",
+            "Status": "Active",
+            "RoomId": 355,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.10.37",
+                "GatewayIPAddress": "10.80.10.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-B9-3F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 250 xi",
+            "PartNumber": "60-1911-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 245,
+            "ControllerName": "FF2-0-069-10.80.23.91",
+            "Status": "Active",
+            "RoomId": 356,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.91",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-67-FD",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 246,
+            "ControllerName": "FF2-1-069-10.80.23.108",
+            "Status": "Active",
+            "RoomId": 357,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.108",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6C-36",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.04.0001-b007"
+        },
+        {
+            "ControllerId": 247,
+            "ControllerName": "FF2-2-069-10.80.23.125",
+            "Status": "Active",
+            "RoomId": 358,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.125",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-68-E7",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.04.0001-b007"
+        },
+        {
+            "ControllerId": 248,
+            "ControllerName": "FF2-2-075-10.80.23.129",
+            "Status": "Active",
+            "RoomId": 359,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.129",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6A-52",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.04.0001-b007"
+        },
+        {
+            "ControllerId": 249,
+            "ControllerName": "FF3-0-069-10.80.23.171",
+            "Status": "Active",
+            "RoomId": 360,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.171",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6C-18",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.04.0001-b007"
+        },
+        {
+            "ControllerId": 250,
+            "ControllerName": "FF3-2-069-10.80.23.205",
+            "Status": "Active",
+            "RoomId": 361,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.205",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-66-35",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.04.0001-b007"
+        },
+        {
+            "ControllerId": 253,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.117",
+            "Status": "Active",
+            "RoomId": 362,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.117",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6C-0E",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 254,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.230",
+            "Status": "Active",
+            "RoomId": 347,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.230",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6C-B8",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 255,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.245",
+            "Status": "Active",
+            "RoomId": 363,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.245",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6A-0F",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 256,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.223",
+            "Status": "Active",
+            "RoomId": 364,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.223",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6A-09",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 257,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.124",
+            "Status": "Active",
+            "RoomId": 365,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.124",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6B-EB",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 258,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.110",
+            "Status": "Active",
+            "RoomId": 367,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.110",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6D-64",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 260,
+            "ControllerName": "IPCP Pro 350 xi : 10.80.21.103",
+            "Status": "Active",
+            "RoomId": 369,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.21.103",
+                "GatewayIPAddress": "10.80.20.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-21-6B-E7",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350 xi",
+            "PartNumber": "60-1912-01",
+            "FirmwareVersion": "1.03.0000-b008"
+        },
+        {
+            "ControllerId": 261,
+            "ControllerName": "FF3-GF-068",
+            "Status": "Active",
+            "RoomId": 337,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.23.162",
+                "GatewayIPAddress": "10.80.22.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-1D-C3-EC",
+            "ControllerType": "IPL Pro",
+            "ModelName": "IPCP Pro 350M",
+            "PartNumber": "60-1460-01",
+            "FirmwareVersion": "3.13.0000-b006"
+        },
+        {
+            "ControllerId": 262,
+            "ControllerName": "F1-2-001 (24-25 Student Class Room)",
+            "Status": "Active",
+            "RoomId": 372,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.136",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-27-8A-A2",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.04.0000-b001"
+        },
+        {
+            "ControllerId": 263,
+            "ControllerName": "IPCP-Pro-355MQ-xi-27-CB-80",
+            "Status": "Active",
+            "RoomId": 374,
+            "IsOnline": false,
+            "NetworkSettings": {
+                "IPAddress": "10.80.9.18",
+                "GatewayIPAddress": "10.80.8.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-27-CB-80",
+            "ControllerType": "Third Party",
+            "ModelName": "IPCP Pro 355MQ xi",
+            "PartNumber": "",
+            "FirmwareVersion": "1.08.0004-b003"
+        },
+        {
+            "ControllerId": 264,
+            "ControllerName": "F1-2-005 (24-25 Student Class Room)",
+            "Status": "Active",
+            "RoomId": 377,
+            "IsOnline": true,
+            "NetworkSettings": {
+                "IPAddress": "10.80.12.144",
+                "GatewayIPAddress": "10.80.12.1",
+                "SubnetMask": "255.255.254.0",
+                "IsDhcpEnabled": false
+            },
+            "MacAddress": "00-05-A6-27-8A-80",
+            "ControllerType": "IPL Pro",
+            "ModelName": "MLC Plus 84 D",
+            "PartNumber": "60-1194-00",
+            "FirmwareVersion": "3.04.0000-b001"
+        }
+    ],
+    "ResponseStatus": {}
+}
