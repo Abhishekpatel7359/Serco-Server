@@ -65,6 +65,7 @@
 
 
 const db = require("../Config/Pool");
+const { calculatePagination, buildPaginatedQuery, buildCountQuery } = require("../Utils/Pagination");
 
 function executeQuery(query, values) {
   return new Promise((resolve, reject) => {
@@ -75,15 +76,35 @@ function executeQuery(query, values) {
   });
 }
 
+async function executeCountQuery(query, values) {
+  const countQuery = buildCountQuery(query);
+  const result = await executeQuery(countQuery, values);
+  return result[0]?.total || 0;
+}
+
+async function executePaginatedQuery(query, values, page, limit) {
+  const totalCount = await executeCountQuery(query, values);
+  const pagination = calculatePagination(page, limit, totalCount);
+  
+  const paginatedQuery = buildPaginatedQuery(query, pagination.itemsPerPage, pagination.offset);
+  const data = await executeQuery(paginatedQuery, values);
+  
+  return {
+    data,
+    pagination
+  };
+}
+
 function buildConditions(conditions) {
   return Object.keys(conditions)
     .map((key) => `${key} = ?`)
     .join(" AND ");
 }
 
-function buildDynamicQuery(queryType, table, data = {}, conditions = {}) {
+function buildDynamicQuery(queryType, table, data = {}, conditions = {}, options = {}) {
   let query = "";
   let values = [];
+  const { orderBy, sortDirection = 'ASC' } = options;
 
   switch (queryType.toLowerCase()) {
     case "insert":
@@ -102,7 +123,13 @@ function buildDynamicQuery(queryType, table, data = {}, conditions = {}) {
       break;
 
     case "select":
-      query = `SELECT * FROM ${table}` + (Object.keys(conditions).length ? ` WHERE ${buildConditions(conditions)}` : "");
+      query = `SELECT * FROM ${table}`;
+      if (Object.keys(conditions).length) {
+        query += ` WHERE ${buildConditions(conditions)}`;
+      }
+      if (orderBy) {
+        query += ` ORDER BY ${orderBy} ${sortDirection}`;
+      }
       values = Object.values(conditions);
       break;
 
@@ -138,4 +165,9 @@ function buildDynamicQuery(queryType, table, data = {}, conditions = {}) {
   return { query, values };
 }
 
-module.exports = { executeQuery, buildDynamicQuery };
+module.exports = { 
+  executeQuery, 
+  buildDynamicQuery, 
+  executePaginatedQuery,
+  executeCountQuery
+};

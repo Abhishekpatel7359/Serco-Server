@@ -1,5 +1,6 @@
 const express = require("express");
 const axios = require("axios");
+const { formatSuccessResponse, formatErrorResponse } = require("../Utils/ResponseFormatter");
 const dotenv = require('dotenv');
 const crypto = require('crypto');
 const fs = require('fs').promises;
@@ -76,6 +77,8 @@ const isFilePath = (url) => {
 // Route to fetch data from API 1 (or local file)
 // Middleware API Route
 router.get("/AV", authenticate, async (req, res) => {
+  const { page, limit } = req.query;
+  
   try {
     let data;
     if (isFilePath(api1URL)) {
@@ -88,12 +91,27 @@ router.get("/AV", authenticate, async (req, res) => {
       data = response.data;
     }
 
+    // Apply pagination if requested
+    if (Array.isArray(data) && (page || limit)) {
+      const { calculatePagination } = require("../Utils/Pagination");
+      const pagination = calculatePagination(page, limit, data.length);
+      const startIndex = pagination.offset;
+      const endIndex = startIndex + pagination.itemsPerPage;
+      data = data.slice(startIndex, endIndex);
+      
+      const response = formatSuccessResponse(data, "AV devices fetched successfully", pagination);
+      const encryptedResults = encrypt(response);
+      res.json({ encryptedData: encryptedResults });
+      return;
+    }
+
     // Encrypt data before sending
-    const results = encrypt(data);
+    const response = formatSuccessResponse(data, "AV devices fetched successfully");
+    const results = encrypt(response);
     res.json({ encryptedData: results });
   } catch (error) {
     console.error("Error fetching data from AV Devices:", error.message);
-    res.status(500).json({ error: "Failed to fetch data from AV Devices" });
+    res.status(500).json(formatErrorResponse("Failed to fetch data from AV Devices", 500, error.message));
   }
 });
 
@@ -101,6 +119,8 @@ router.get("/AV", authenticate, async (req, res) => {
 // Route to fetch data from API 2 (or local file)
 // Middleware API Route
 router.get("/PDU", authenticate, async (req, res) => {
+  const { page, limit } = req.query;
+  
   try {
     let data;
     if (isFilePath(api2URL)) {
@@ -113,12 +133,27 @@ router.get("/PDU", authenticate, async (req, res) => {
       data = response.data;
     }
 
+    // Apply pagination if requested
+    if (Array.isArray(data) && (page || limit)) {
+      const { calculatePagination } = require("../Utils/Pagination");
+      const pagination = calculatePagination(page, limit, data.length);
+      const startIndex = pagination.offset;
+      const endIndex = startIndex + pagination.itemsPerPage;
+      data = data.slice(startIndex, endIndex);
+      
+      const response = formatSuccessResponse(data, "PDU devices fetched successfully", pagination);
+      const encryptedResults = encrypt(response);
+      res.json({ encryptedData: encryptedResults });
+      return;
+    }
+
     // Encrypt data before sending
-    const results = encrypt(data);
+    const response = formatSuccessResponse(data, "PDU devices fetched successfully");
+    const results = encrypt(response);
     res.json({ encryptedData: results });
   } catch (error) {
     console.error("Error fetching data from PDU Devices:", error.message);
-    res.status(500).json({ error: "Failed to fetch data from PDU Devices" });
+    res.status(500).json(formatErrorResponse("Failed to fetch data from PDU Devices", 500, error.message));
   }
 });
 

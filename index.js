@@ -7,10 +7,12 @@ const authRoutes = require("./Routes/AuthRoute");
 const PingRoutes = require("./Routes/PingRoute");
 const { sendOtp } = require('./Services/NodeMailer');
 const DeviceRoutes = require("./Routes/DevicesRoutes");
+const { generalLimiter, strictLimiter, pingLimiter } = require("./Middleware/RateLimit");
+const { validatePagination } = require("./Middleware/Validation");
 const fs = require('fs');
 const https = require('https');
 const SchedulerRoutes = require("./Routes/SchedulerRoute");
-const { startTaskScheduler } = require("./Services/SchedulerService");
+const { startTaskScheduler, startCleanupJob } = require("./Services/SchedulerService");
 const cors = require('cors');
 const { sendCustomMail } = require("./Services/SendCustomMail");
 const authenticate = require("./Middleware/Auth");
@@ -32,7 +34,11 @@ app.use(express.static("public"));
 // Middleware
 app.use(express.json());
 
+// Apply rate limiting
+app.use(generalLimiter);
 
+// Apply pagination validation to all routes
+app.use(validatePagination);
 
 
 //SSL Certificate
@@ -44,10 +50,11 @@ const options = {
 
 // Routes
 app.use("/api/auth", authRoutes);
-app.use("/api/crud", crudRoutes);
-app.use("/api/ping", PingRoutes);
+app.use("/api/crud", strictLimiter, crudRoutes);
+app.use("/api/ping", pingLimiter, PingRoutes);
 app.use("/api/Devices", DeviceRoutes);
-app.use("/api/scheduler", SchedulerRoutes);
+app.use("/api/scheduler", strictLimiter, SchedulerRoutes);
+
 app.post('/api/send-otp', authenticate, async (req, res) => {
   const { email } = req.body;
   if (!email) {
@@ -82,6 +89,7 @@ app.post('/api/send-Html', authenticate, async (req, res) => {
 
 // Start the scheduler
 startTaskScheduler();
+startCleanupJob();
 
 // Start Server
 app.listen(PORT, () => {

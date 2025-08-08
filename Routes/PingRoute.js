@@ -1,6 +1,8 @@
 const express = require("express");
 const ping = require("ping");
-const axios = require("axios");
+const { formatSuccessResponse, formatErrorResponse } = require("../Utils/ResponseFormatter");
+const { calculatePagination } = require("../Utils/Pagination");
+const { validatePingRequest } = require("../Middleware/Validation");
 const router = express.Router();
 
 // Helper function to perform ping on a single IP
@@ -45,74 +47,63 @@ const performPing = async (ip, numPings = 4) => {
 };
 
 // Batch Ping endpoint
-router.post("/batch", async (req, res) => {
-    const { ips, numPings = 4 } = req.body;
+router.post("/batch", validatePingRequest, async (req, res) => {
+    const { ips, numPings = 4, page, limit } = req.body;
 
     if (!Array.isArray(ips) || ips.length === 0) {
-        return res.status(400).json({ message: "IP list is required and must be an array" });
+        return res.status(400).json(formatErrorResponse("IP list is required and must be an array", 400));
     }
 
-    const results = [];
-    for (const ip of ips) {
-        try {
-            const pingResult = await performPing(ip, numPings);
-            results.push(pingResult);
-            
-
-            // Send result to insert or update route
-            // const dbPayload = {
-            //     queryType: "insert", // Or "update" based on your requirements
-            //     table: "tbl_ping_log",
-            //     values: pingResult, // Adjust based on the database schema
-            // };
-
-            // // Replace this URL with your API URL for insert/update
-            // await axios.post("http://localhost:3000/api/db", dbPayload);
-
-
-
-        } catch (error) {
-            console.error(`Error pinging IP ${ip}:`, error.message);
-            results.push({ ip, error: error.message });
+    try {
+        const results = [];
+        
+        // Apply pagination if requested
+        let paginatedIps = ips;
+        let pagination = null;
+        
+        if (page || limit) {
+            pagination = calculatePagination(page, limit, ips.length);
+            const startIndex = pagination.offset;
+            const endIndex = startIndex + pagination.itemsPerPage;
+            paginatedIps = ips.slice(startIndex, endIndex);
         }
-    }
 
-    res.json({
-        message: "Batch ping completed",
-        results,
-    });
+        for (const ip of paginatedIps) {
+            try {
+                const pingResult = await performPing(ip, numPings);
+                results.push(pingResult);
+            } catch (error) {
+                console.error(`Error pinging IP ${ip}:`, error.message);
+                results.push({ ip, error: error.message });
+            }
+        }
+
+        const response = formatSuccessResponse(results, "Batch ping completed", pagination);
+        res.json(response);
+    } catch (error) {
+        console.error("Batch ping error:", error);
+        res.status(500).json(formatErrorResponse("Batch ping failed", 500, error.message));
+    }
 });
 
 // Single IP Ping endpoint
-router.post("/single", async (req, res) => {
+router.post("/single", validatePingRequest, async (req, res) => {
     try {
         const { ip, numPings = 4 } = req.body;
 
         if (!ip) {
-            return res.status(400).json({ message: "IP address is required" });
+            return res.status(400).json(formatErrorResponse("IP address is required", 400));
         }
 
         // Perform the ping operation
         const pingResult = await performPing(ip, numPings);
 
-        // Optionally, update or insert the result in the database
-        // const dbPayload = {
-        //     queryType: "insert", // Or "update"
-        //     table: "tbl_ping_log",
-        //     values: pingResult, // Adjust based on your database schema
-        // };
-
-        // // Replace with your database API endpoint
-        // await axios.post("http://localhost:3000/api/db", dbPayload);
-
         // Return the result
-        res.json({
-            message: "Single IP ping completed",
-            result: pingResult,
-        });
+        const response = formatSuccessResponse(pingResult, "Single IP ping completed");
+        res.json(response);
     } catch (error) {
         console.error("Error pinging IP:", error.message);
-        res.status(500).json({ message: "Error pinging IP", error: error.message });
+        res.status(500).json(formatErrorResponse("Error pinging IP", 500, error.message));
     }
 });
 

@@ -1,6 +1,42 @@
 const cron = require("node-cron");
-const axios = require("axios");
+const ping = require("ping");
 const { executeQuery } = require("../Services/CrudService");
+
+// Direct ping function (no API call needed)
+async function performDirectPing(ip, numPings = 4) {
+  let results = [];
+  let totalPingTime = 0;
+  let packetLoss = 0;
+
+  for (let i = 0; i < numPings; i++) {
+    const response = await ping.promise.probe(ip);
+    results.push(response.time);
+    totalPingTime += response.time || 0;
+    if (response.alive === false) {
+      packetLoss++;
+    }
+  }
+
+  const avg = totalPingTime / numPings;
+  const min = Math.min(...results.filter(Boolean));
+  const max = Math.max(...results.filter(Boolean));
+  const status = avg <= 100 ? "Healthy" : avg > 100 && avg < 500 ? "Delayed" : "Unresponsive";
+
+  return {
+    ip,
+    time: avg,
+    status,
+    alive: packetLoss === 0,
+    timestamp: new Date(),
+    details: {
+      packetLoss: (packetLoss / numPings).toFixed(3),
+      min,
+      max,
+      avg,
+      numPings,
+    },
+  };
+}
 
 async function insertPingLog(ip, pingResult) {
 
@@ -54,7 +90,7 @@ async function fetchTasksToRun() {
 
 
 
-  const query = `SELECT * FROM ScheduledTasks WHERE STATUS = 'SCHEDULED' AND  run_at <= '${formatted_date}'`;
+  const query = `SELECT * FROM ScheduledTasks WHERE (STATUS = 'SCHEDULED' OR STATUS IS NULL) AND run_at <= '${formatted_date}'`;
 
   console.log(query)
   return await executeQuery(query);
@@ -102,47 +138,91 @@ AND Running_at = (
 // Start the scheduler service
 function startTaskScheduler() {
   cron.schedule("* * * * *", async () => {
-    const tasks = await fetchTasksToRun();
+    try {
+      const tasks = await fetchTasksToRun();
 
-    console.log('Running tasks', tasks)
-    tasks.forEach(async (task) => {
-      const { id, route, headers, body } = task;
+      console.log('Running tasks', tasks.length);
+      
+      for (const task of tasks) {
+        const { id, route, headers, body, ips } = task;
 
+        try {
+          await updateTaskStatus("Running", id);
+          
+          // Parse the IPs from the task
+          const ipList = JSON.parse(ips || '[]');
+          const parsedBody = JSON.parse(body || '{}');
+          const taskIps = parsedBody.ips || ipList;
 
+          if (!Array.isArray(taskIps) || taskIps.length === 0) {
+            console.log(`Task ${id}: No IPs to ping`);
+            await updateTaskStatus("Completed", id);
+            continue;
+          }
 
-      try {
-        const response = await axios.post(route, JSON.parse(body), {
-          headers: JSON.parse(headers),
-        });
+          console.log(`Task ${id}: Processing ${taskIps.length} IPs`);
+          
+          // Perform direct ping operations
+          const pingResults = [];
+          for (const ip of taskIps) {
+            try {
+              const pingResult = await performDirectPing(ip, parsedBody.numPings || 4);
+              pingResults.push(pingResult);
+              
+              // Insert ping log
+              await insertPingLog(ip, pingResult);
+              
+              // Update ping time and notification
+              await updatePingTime(pingResult, ip);
+              await UpdateNotification(ip, pingResult, "Completed");
+              
+            } catch (pingError) {
+              console.error(`Error pinging IP ${ip}:`, pingError);
+              const errorResult = { ip, error: pingError.message, alive: false, status: "Error" };
+              pingResults.push(errorResult);
+              await insertPingLog(ip, errorResult);
+            }
+          }
 
-        const { ips } = JSON.parse(body);
-
-
-        const data = response.data.results;
-
-
-        console.log("Data",data)
-        console.log("ips",ips)
-        // Process results for each IP
-        ips.forEach(async (ip, index) => {
-          const pingResult = data[index] || "No result"; // Adjust based on API response format
-          await insertPingLog(ip, pingResult);
-          // await updatePingTime(pingResult, ip);
-          UpdateNotification(ip,pingResult, "Completed");
-
-        });
-
-        await updateTaskStatus("Completed", id,);
-        console.log(`Task ${id} executed successfully.`);
-      } catch (error) {
-        console.error(`Task ${id} failed:`, error);
-        
-        console.log(`Task ${id} failed:`, error);
-        
-        await updateTaskStatus(id, "Failed");
+          await updateTaskStatus("Completed", id);
+          console.log(`Task ${id} completed successfully. Processed ${pingResults.length} IPs`);
+          
+        } catch (error) {
+          console.error(`Task ${id} failed:`, error);
+          await updateTaskStatus("Failed", id);
+        }
       }
-    });
+    } catch (error) {
+      console.error('Scheduler error:', error);
+    }
   });
 }
 
-module.exports = { startTaskScheduler };
+// Add a cleanup job to remove old completed tasks (runs daily at midnight)
+function startCleanupJob() {
+  cron.schedule("0 0 * * *", async () => {
+    try {
+      const thirtyDaysAgo = new Date();
+      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+      
+      const formatted_date = thirtyDaysAgo.getFullYear() + '-'
+        + (thirtyDaysAgo.getMonth() + 1).toString().padStart(2, '0') + '-'
+        + thirtyDaysAgo.getDate().toString().padStart(2, '0') + ' '
+        + thirtyDaysAgo.getHours().toString().padStart(2, '0') + ':'
+        + thirtyDaysAgo.getMinutes().toString().padStart(2, '0') + ':'
+        + thirtyDaysAgo.getSeconds().toString().padStart(2, '0');
+      
+      const query = "DELETE FROM ScheduledTasks WHERE STATUS = 'Completed' AND run_at < ?";
+      const result = await executeQuery(query, [formatted_date]);
+      console.log(`Cleanup job: Removed ${result.affectedRows} old completed tasks`);
+    } catch (error) {
+      console.error('Cleanup job error:', error);
+    }
+  });
+}
+
+module.exports = { 
+  startTaskScheduler,
+  startCleanupJob,
+  performDirectPing
+};
